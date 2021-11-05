@@ -1,0 +1,20 @@
+Package: DYNPROG
+Type: Package
+Title: Apply Optimal Segmentation by Dynamic Programming
+Version: 0.1.0
+Author: Shadmaan Hye
+Maintainer: Shadmaan Hye <praptishadmaan@gmail.com>
+Description: The package provides a function named DYNPROG which takes a data of size (n), where n is the number of observations of the data and maximum number of segmentation.
+    The return of the function is a datatable with 3 columns having start, end and mean of segments.
+License: GPL-3
+Imports: data.table
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Suggests: 
+    knitr,
+    testthat (>= 3.0.0),
+    rmarkdown,
+    ggplot2
+VignetteBuilder: knitr
+Config/testthat/edition: 3
