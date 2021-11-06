@@ -41,10 +41,9 @@ This is a basic example which shows you how to perform optimal segmentation usin
 ``` r
 library(DYNPROG)
 result <- DYNPROG(iris[,1], 3)
-str(result)
-Classes ‘data.table’ and 'data.frame':	3 obs. of  3 variables:
- $ seg.start: num  1 51 103
- $ seg.end  : int  50 102 150
- $ seg.mean : num  5.01 5.94 6.61
- - attr(*, ".internal.selfref")=<externalptr> 
+result
+   seg.start seg.end seg.mean
+1:         1      50 5.006000
+2:        51     102 5.940385
+3:       103     150 6.610417
 ```
